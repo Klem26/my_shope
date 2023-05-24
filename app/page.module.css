@@ -1,0 +1,139 @@
+.productCard {
+  padding: 10px 8px 12px;
+  width: 197px;
+  height: 270px;
+  background: #f8f7f4;
+  border-radius: 8px;
+  position: relative;
+}
+.productCard--dark {
+  background-color: #1c1c1e;
+  color: #fff;
+}
+
+.productCard__options {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-content: flex-end;
+}
+
+.optionsImg {
+  margin: 0 auto;
+}
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ratingBox {
+  display: flex;
+  align-items: center;
+}
+.coreBar_rating {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 14px;
+  color: #ffffff;
+}
+
+.productCard__image {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  top: 16px;
+}
+
+.slick {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 16px;
+  margin: 95px 0 16px;
+}
+.productCard__title {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #555559;
+  margin: 0 0 4px;
+}
+
+.productCard__name {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.2px;
+  margin: 0 0 4px;
+  color: #171717;
+}
+.productCard--dark_name {
+  color: #fff;
+}
+
+.productCard__subTitle {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #555559;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  margin: 0 0 12px;
+}
+
+.productCard__box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 8px;
+  gap: 8px;
+  width: 181px;
+  height: 24px;
+  background: #a28b6e;
+  border-radius: 8px;
+}
+.productCard__title__dark {
+  color: #747474;
+}
+.productCard__title__dark_bg {
+  background: #2e2e30;
+}
+
+.productCard__volume {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #ffffff;
+  margin: 0;
+}
+.productCard__box_country {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.productCard__country {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #ffffff;
+  margin: 0;
+}
+
+.productCard__theme_toggle {
+  margin: 32px;
+  color: #fff;
+  background-color: #333;
+}

@@ -1,0 +1,42 @@
+{
+  "name": "my_shope",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "eslint": "8.41.0",
+    "eslint-config-next": "13.4.3",
+    "next": "13.4.3",
+    "postcss-aspect-ratio-polyfill": "^2.0.0",
+    "postcss-cli": "^10.1.0",
+    "postcss-combine-duplicated-selectors": "^10.0.3",
+    "postcss-dark-theme-class": "^0.7.3",
+    "postcss-discard-duplicates": "^6.0.0",
+    "postcss-each": "^1.1.0",
+    "postcss-easings": "^3.0.1",
+    "postcss-extend-rule": "^4.0.0",
+    "postcss-flexbugs-fixes": "^5.0.2",
+    "postcss-hexrgba": "^2.1.0",
+    "postcss-mixins": "^9.0.4",
+    "postcss-nested": "^6.0.1",
+    "postcss-nested-ancestors": "^3.0.0",
+    "postcss-normalize": "^10.0.1",
+    "postcss-preset-env": "^8.3.2",
+    "postcss-pxtorem": "^6.0.0",
+    "postcss-sort-media-queries": "^5.1.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "postcss": "^8.4.23",
+    "postcss-import": "^15.1.0",
+    "postcss-import-ext-glob": "^2.1.1",
+    "postcss-nesting": "^11.2.2",
+    "postcss-prepend-imports": "^1.0.1"
+  }
+}
